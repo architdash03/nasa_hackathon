@@ -12,7 +12,8 @@ Marswalk Planner is a layered, interactive map of Jezero Crater, the landing sit
 
 A "Make route safer" button re-plans the route around steep terrain automatically.
 
-> Live demo: `<add your Vercel / GitHub Pages link>` · Open with `?tour` for the 4-step guided tour.
+> Live demo: https://nasahackathon-six.vercel.app · Open with `?tour` for the 4-step guided tour.
+> GitHub: https://github.com/architdash03/nasa_hackathon
 
 ---
 
