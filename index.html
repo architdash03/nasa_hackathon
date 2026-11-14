@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marswalk Planner – Jezero Crater</title>
+    <meta name="ai-assistance" content="Code written with Claude Code (Anthropic), reviewed and tested by the team. No AI-generated images, video or audio." />
+    <meta name="description" content="Plan a safe, science-rich Marswalk (EVA) in Jezero Crater using NASA mission data." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23c1440e'/></svg>" />
+  </head>
+  <body>
+    <!-- Top bar: title + data credits (no NASA logo, as the rules ask) -->
+    <header id="topbar">
+      <div class="title">
+        <span class="dot"></span>
+        <h1>Marswalk Planner</h1>
+        <span class="subtitle">Jezero Crater · 18.4°N 77.5°E</span>
+      </div>
+      <div class="credits">
+        Data: NASA Mars Trek · MGS MOLA · MRO CTX / HiRISE / CRISM · Mars Odyssey THEMIS · Mars 2020 · MSL RAD
+        <a href="#" id="about-link">About &amp; sources</a>
+      </div>
+      <button id="panel-toggle" aria-label="Show or hide planner panel">☰ Planner</button>
+    </header>
+
+    <main id="layout">
+      <!-- The Leaflet map fills this div -->
+      <div id="map"></div>
+
+      <!-- Right-hand planner panel (filled in by route.js) -->
+      <aside id="panel"></aside>
+    </main>
+
+    <!-- "About & sources" dialog -->
+    <dialog id="about">
+      <div id="about-content"></div>
+      <form method="dialog"><button>Close</button></form>
+    </dialog>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

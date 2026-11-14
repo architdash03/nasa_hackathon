@@ -1,0 +1,231 @@
+{
+ "type": "FeatureCollection",
+ "generated_by": "Created by scripts/make_terrain_grid.py from the NASA sources listed in it; script written with AI assistance (Claude Code, Anthropic) and reviewed by the team.",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #1",
+    "max_slope_deg": 34,
+    "area_km2": 0.83
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.30879,
+     18.55604
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #2",
+    "max_slope_deg": 37,
+    "area_km2": 0.63
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.23115,
+     18.60239
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #3",
+    "max_slope_deg": 43,
+    "area_km2": 0.59
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.23671,
+     18.58127
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #4",
+    "max_slope_deg": 37,
+    "area_km2": 0.39
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.3343,
+     18.22535
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #5",
+    "max_slope_deg": 33,
+    "area_km2": 0.35
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.28832,
+     18.4831
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #6",
+    "max_slope_deg": 34,
+    "area_km2": 0.35
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.36217,
+     18.30943
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #7",
+    "max_slope_deg": 31,
+    "area_km2": 0.34
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.27082,
+     18.47344
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #8",
+    "max_slope_deg": 35,
+    "area_km2": 0.28
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.68448,
+     18.69806
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #9",
+    "max_slope_deg": 36,
+    "area_km2": 0.18
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.25054,
+     18.60207
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #10",
+    "max_slope_deg": 32,
+    "area_km2": 0.18
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.2003,
+     18.57714
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #11",
+    "max_slope_deg": 33,
+    "area_km2": 0.17
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.26809,
+     18.5962
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #12",
+    "max_slope_deg": 33,
+    "area_km2": 0.17
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.24794,
+     18.50996
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #13",
+    "max_slope_deg": 31,
+    "area_km2": 0.17
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.27811,
+     18.48793
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #14",
+    "max_slope_deg": 33,
+    "area_km2": 0.17
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.26065,
+     18.4272
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "label": "Steep zone #15",
+    "max_slope_deg": 35,
+    "area_km2": 0.16
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.258,
+     18.60774
+    ]
+   }
+  }
+ ]
+}

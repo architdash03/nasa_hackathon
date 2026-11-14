@@ -1,0 +1,199 @@
+/* AI-assisted: written with Claude Code (Anthropic) and reviewed/tested by our team. */
+/* style.css – dark, Mars-themed UI */
+
+:root {
+  --bg: #15100e;          /* page background */
+  --panel: #1f1814;       /* panel background */
+  --panel-2: #2a201b;     /* cards inside the panel */
+  --line: #3d2f27;        /* borders */
+  --text: #f1e6de;
+  --muted: #b29d8f;
+  --accent: #e2703a;      /* Mars orange */
+  --ok: #4caf7a;
+  --warn: #e8b931;
+  --bad: #e0483e;
+  --panel-width: 360px;
+  --header-h: 52px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); }
+
+/* ---------- Header ---------- */
+#topbar {
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+  background: linear-gradient(90deg, #2b1610, #1b1310);
+  border-bottom: 1px solid var(--line);
+}
+#topbar .title { display: flex; align-items: baseline; gap: 10px; white-space: nowrap; }
+#topbar h1 { font-size: 18px; margin: 0; letter-spacing: 0.02em; }
+#topbar .dot {
+  width: 14px; height: 14px; border-radius: 50%; align-self: center;
+  background: radial-gradient(circle at 35% 35%, #f08a5d, #9c2f0b);
+}
+#topbar .subtitle { color: var(--muted); font-size: 13px; }
+#topbar .credits {
+  margin-left: auto; font-size: 12px; color: var(--muted);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+#topbar a { color: var(--accent); margin-left: 8px; }
+#panel-toggle {
+  display: none; background: var(--panel-2); color: var(--text);
+  border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer;
+}
+
+/* ---------- Map + side panel layout ---------- */
+#layout {
+  position: relative;
+  display: flex;
+  height: calc(100% - var(--header-h));
+}
+#map { flex: 1; background: #000; }
+#panel {
+  width: var(--panel-width);
+  overflow-y: auto;
+  background: var(--panel);
+  border-left: 1px solid var(--line);
+  padding: 14px;
+  font-size: 14px;
+}
+body.panel-hidden #panel { display: none; }
+
+/* ---------- Leaflet controls in dark style ---------- */
+.leaflet-container { background: #000; font: inherit; }
+.leaflet-control-layers,
+.leaflet-bar a,
+.coord-readout,
+.leaflet-control-scale-line {
+  background: rgba(31, 24, 20, 0.92) !important;
+  color: var(--text) !important;
+  border-color: var(--line) !important;
+}
+.leaflet-control-layers { border-radius: 8px; }
+.leaflet-control-layers-expanded { padding: 8px 12px; font-size: 13px; }
+.leaflet-control-layers-separator { border-top-color: var(--line); }
+.leaflet-control-scale-line { border: 2px solid var(--muted) !important; border-top: none !important; }
+.leaflet-control-attribution { background: rgba(21, 16, 14, 0.8) !important; color: var(--muted) !important; font-size: 10px; }
+.leaflet-control-attribution a { color: var(--accent); }
+.coord-readout {
+  padding: 4px 8px; border-radius: 6px; font-size: 12px;
+  font-family: ui-monospace, Menlo, monospace;
+  border: 1px solid var(--line);
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: var(--panel); color: var(--text); border: 1px solid var(--line);
+}
+.leaflet-popup-content { font-size: 13px; line-height: 1.4; }
+.leaflet-popup-content h3 { margin: 0 0 4px; font-size: 15px; color: var(--accent); }
+.leaflet-popup-content a { color: var(--accent); }
+.leaflet-popup-content .src { color: var(--muted); font-size: 11px; margin-top: 6px; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+
+/* ---------- Panel contents ---------- */
+#panel h2 { font-size: 15px; margin: 18px 0 8px; color: var(--accent); }
+#panel h2:first-child { margin-top: 0; }
+#panel p { margin: 6px 0; color: var(--muted); line-height: 1.4; }
+.card { background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin: 8px 0; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+button.btn {
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+  border-radius: 6px; padding: 6px 10px; cursor: pointer; font: inherit; font-size: 13px;
+}
+button.btn:hover { border-color: var(--accent); }
+button.btn.primary { background: var(--accent); border-color: var(--accent); color: #1a0e08; font-weight: 600; }
+button.btn.active { outline: 2px solid var(--accent); }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.stat { background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
+.stat .label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.stat .value { font-size: 18px; font-weight: 600; margin-top: 2px; }
+.estimate-tag {
+  font-size: 10px; color: var(--warn); border: 1px solid var(--warn);
+  border-radius: 4px; padding: 0 4px; margin-left: 4px; vertical-align: middle;
+}
+.checklist { list-style: none; padding: 0; margin: 0; }
+.checklist li { display: flex; gap: 8px; align-items: flex-start; padding: 6px 0; border-bottom: 1px solid var(--line); }
+.checklist li:last-child { border-bottom: none; }
+.checklist .icon { width: 22px; flex: none; text-align: center; font-weight: 700; }
+.ok { color: var(--ok); } .warn { color: var(--warn); } .bad { color: var(--bad); }
+.warnings { margin: 6px 0; padding-left: 18px; color: var(--warn); }
+.chart-box { height: 170px; position: relative; }
+.legend-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: middle; margin-right: 4px; }
+.small { font-size: 12px; color: var(--muted); }
+
+/* ---------- About dialog ---------- */
+dialog#about {
+  max-width: 720px; width: calc(100% - 32px); max-height: 85vh;
+  background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 10px;
+}
+dialog#about::backdrop { background: rgba(0, 0, 0, 0.6); }
+dialog#about a { color: var(--accent); }
+dialog#about li { margin: 4px 0; line-height: 1.4; }
+
+/* ---------- Phones / narrow screens ---------- */
+@media (max-width: 760px) {
+  #topbar { gap: 8px; padding: 0 10px; }
+  #topbar .subtitle, #topbar .credits { display: none; }
+  #panel-toggle { display: block; margin-left: auto; }
+  /* panel slides over the bottom half of the map */
+  #panel {
+    position: absolute; left: 0; right: 0; bottom: 0; width: auto; max-height: 55%;
+    border-left: none; border-top: 1px solid var(--line); z-index: 1000;
+  }
+}
+
+/* Slope hazard overlay: show each 100 m cell as a sharp square */
+img.pixelated { image-rendering: pixelated; }
+
+/* Numbered route points */
+.route-pt {
+  background: #fff; color: #1a0e08; border: 2px solid var(--accent); border-radius: 50%;
+  font: 700 11px/18px system-ui, sans-serif; text-align: center;
+}
+/* While drawing, clicks go to the map, not to the data layers underneath */
+.drawing .leaflet-interactive:not(.route-pt) { pointer-events: none; }
+
+/* Science target ★ and hazard ⚠ map icons */
+.sci-icon, .haz-icon {
+  display: flex; align-items: center; justify-content: center; border-radius: 50%;
+  font-size: 16px; line-height: 1; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.6);
+}
+.sci-icon { background: #2e7d32; color: #ffeb3b; }
+.haz-icon { background: #b71c1c; color: #fff; font-size: 12px; }
+
+/* Guided tour card (floats over the map, bottom-centre) */
+#tour {
+  position: absolute; left: 50%; bottom: 40px; transform: translateX(calc(-50% - var(--panel-width) / 2));
+  width: min(440px, calc(100% - 32px)); z-index: 1100;
+  background: rgba(31, 24, 20, 0.97); border: 1px solid var(--accent); border-radius: 10px;
+  padding: 12px 14px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+}
+#tour .tour-title { font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+#tour .tour-text { font-size: 14px; line-height: 1.45; }
+#tour button:disabled { opacity: 0.4; cursor: default; }
+@media (max-width: 760px) {
+  #tour { transform: translateX(-50%); bottom: auto; top: 10px; }
+}
+
+/* Rover point-of-view thumbnails in popups */
+.pov { display: flex; gap: 4px; margin-top: 4px; }
+.pov img { width: 92px; height: 70px; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); }
+
+/* Space weather card */
+.sw-alert { border-color: var(--warn); }
+.pace { display: block; margin: 6px 0; }
+.pace input { width: 100%; accent-color: var(--accent); }
+#panel a { color: var(--accent); }
+
+/* CRISM mineral legend */
+.crism-legend {
+  background: rgba(31, 24, 20, 0.94); color: var(--text); border: 1px solid var(--line);
+  border-radius: 8px; padding: 8px 10px; font-size: 12px; max-width: 290px; line-height: 1.5;
+}
+.crism-legend hr { border: none; border-top: 1px solid var(--line); margin: 6px 0; }
+.crism-legend .small { margin-top: 4px; font-size: 11px; }

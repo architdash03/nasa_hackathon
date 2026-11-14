@@ -1,0 +1,350 @@
+{
+ "type": "FeatureCollection",
+ "generated_by": "Created by scripts/make_science_targets.py from the NASA sources listed in it; script written with AI assistance (Claude Code, Anthropic) and reviewed by the team.",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Crater floor – Máaz / Ch'ał outcrop",
+    "why": "Igneous (volcanic) rocks of the crater floor near the landing site. They record what Jezero's floor is made of and give the lake deposits an age reference.",
+    "mission": "Mars 2020 (samples Ha'ahóni & Atsá)",
+    "source": "https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+    "position": "Perseverance's position on sol 362 (Mars 2020 waypoint feed)",
+    "elev_m": -2569,
+    "sol": 362,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00362/ids/edr/browse/ncam/NLG_0362_0699088461_909ECM_N0110108NCAM00500_00_2I4J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00362/ids/edr/browse/ncam/NLG_0362_0699088461_909ECM_N0110108NCAM00500_00_2I4J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 362
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00362/ids/edr/browse/ncam/NLG_0362_0699088243_425ECM_N0110108NCAM00500_00_2I4J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00362/ids/edr/browse/ncam/NLG_0362_0699088243_425ECM_N0110108NCAM00500_00_2I4J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 362
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00362/ids/edr/browse/zcam/ZL0_0362_0699090121_678EBY_N0110108ZCAM07101_1100LMJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00362/ids/edr/browse/zcam/ZL0_0362_0699090121_678EBY_N0110108ZCAM07101_1100LMJ01_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 362
+     }
+    ],
+    "hirise_id": "ESP_068360_1985",
+    "hirise_title": "Perseverance on the Ground in Color",
+    "hirise_url": "https://www.uahirise.org/ESP_068360_1985",
+    "hirise_km": 0.1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.452434,
+     18.443902
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Séítah – olivine-rich rocks",
+    "why": "Olivine-rich igneous rocks. Olivine was mapped from orbit by MRO CRISM and confirmed by Perseverance's samples (Salette, Coulettes).",
+    "mission": "MRO CRISM + Mars 2020",
+    "source": "Goudge et al. 2015, JGR Planets, doi:10.1002/2014JE004782; https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+    "position": "Perseverance's position on sol 248 (Mars 2020 waypoint feed)",
+    "elev_m": -2569,
+    "sol": 248,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00248/ids/edr/browse/ncam/NLF_0248_0688959812_506EBY_N0072480SAPP00601_00_0LLJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00248/ids/edr/browse/ncam/NLF_0248_0688959812_506EBY_N0072480SAPP00601_00_0LLJ01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 248
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00248/ids/edr/browse/ncam/NLE_0248_0688959812_506ECM_N0072480SAPP00601_00_0LLJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00248/ids/edr/browse/ncam/NLE_0248_0688959812_506ECM_N0072480SAPP00601_00_0LLJ01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 248
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00248/ids/edr/browse/zcam/ZL0_0248_0688941343_555EBY_N0072440ZCAM08270_1100LMJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00248/ids/edr/browse/zcam/ZL0_0248_0688941343_555EBY_N0072440ZCAM08270_1100LMJ01_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 248
+     }
+    ],
+    "hirise_id": "ESP_045994_1985",
+    "hirise_title": "Candidate Landing Site for 2020 Mission in Jezero Crater",
+    "hirise_url": "https://www.uahirise.org/ESP_045994_1985",
+    "hirise_km": 0.5
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.443019,
+     18.433964
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Delta front – Wildcat Ridge",
+    "why": "Fine-grained sedimentary rock laid down in the ancient lake. CRISM found Fe/Mg clay minerals in the Jezero delta – clays are good at preserving organic molecules (samples Hazeltop & Bearwallow).",
+    "mission": "MRO CRISM + Mars 2020",
+    "source": "Ehlmann et al. 2008, Nature Geoscience, doi:10.1038/ngeo207; Goudge et al. 2015, JGR Planets, doi:10.1002/2014JE004782; https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+    "position": "Perseverance's position on sol 502 (Mars 2020 waypoint feed)",
+    "elev_m": -2523,
+    "sol": 502,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00502/ids/edr/browse/ncam/NLF_0502_0711519639_144ECM_N0261222NCAM00501_01_295J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00502/ids/edr/browse/ncam/NLF_0502_0711519639_144ECM_N0261222NCAM00501_01_295J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 502
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00502/ids/edr/browse/ncam/NLF_0502_0711519687_230ECM_N0261222NCAM00501_01_295J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00502/ids/edr/browse/ncam/NLF_0502_0711519687_230ECM_N0261222NCAM00501_01_295J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 502
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00502/ids/edr/browse/zcam/ZL0_0502_0711519173_769EBY_N0261222ZCAM07115_1100LMJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00502/ids/edr/browse/zcam/ZL0_0502_0711519173_769EBY_N0261222ZCAM07115_1100LMJ01_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 502
+     }
+    ],
+    "hirise_id": "ESP_068294_1985",
+    "hirise_title": "Perseverance Hardware One Day after Landing",
+    "hirise_url": "https://www.uahirise.org/ESP_068294_1985",
+    "hirise_km": 1.4
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.405925,
+     18.458647
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Three Forks sample depot (area)",
+    "why": "Ten sample tubes were left on the surface here (completed 28 Jan 2023) as a backup for a future sample-return mission.",
+    "mission": "Mars 2020",
+    "source": "https://www.jpl.nasa.gov/news/nasas-perseverance-rover-completes-mars-sample-depot/",
+    "position": "Approximate area: Perseverance's position on sol 686 (Mars 2020 waypoint feed)",
+    "elev_m": -2545,
+    "sol": 686,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00686/ids/edr/browse/ncam/NLG_0686_0727840146_099ECM_N0321174NCAM00500_00_2I4J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00686/ids/edr/browse/ncam/NLG_0686_0727840146_099ECM_N0321174NCAM00500_00_2I4J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 686
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00686/ids/edr/browse/ncam/NLG_0686_0727840150_506ECM_N0321174NCAM00500_00_2I4J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00686/ids/edr/browse/ncam/NLG_0686_0727840150_506ECM_N0321174NCAM00500_00_2I4J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 686
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00686/ids/edr/browse/zcam/ZL0_0686_0727838300_020EBY_N0321174ZCAM08685_1100LMJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00686/ids/edr/browse/zcam/ZL0_0686_0727838300_020EBY_N0321174ZCAM08685_1100LMJ01_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 686
+     }
+    ],
+    "hirise_id": "ESP_068294_1985",
+    "hirise_title": "Perseverance Hardware One Day after Landing",
+    "hirise_url": "https://www.uahirise.org/ESP_068294_1985",
+    "hirise_km": 1.4
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.408447,
+     18.453372
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Upper fan – Berea",
+    "why": "Top of the delta/fan, where rivers dropped coarser rocks carried from outside the crater (sample Melyn).",
+    "mission": "Mars 2020",
+    "source": "https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+    "position": "Perseverance's position on sol 736 (Mars 2020 waypoint feed)",
+    "elev_m": -2449,
+    "sol": 736,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00736/ids/edr/browse/ncam/NLF_0736_0732291806_231ECM_N0370000NCAM00709_10_295J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00736/ids/edr/browse/ncam/NLF_0736_0732291806_231ECM_N0370000NCAM00709_10_295J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 736
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00736/ids/edr/browse/ncam/NLF_0736_0732291806_231ECM_N0370000NCAM00709_01_095J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00736/ids/edr/browse/ncam/NLF_0736_0732291806_231ECM_N0370000NCAM00709_01_095J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 736
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00736/ids/edr/browse/zcam/ZL0_0736_0732289546_784EBY_N0363398ZCAM07115_1100LMJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00736/ids/edr/browse/zcam/ZL0_0736_0732289546_784EBY_N0363398ZCAM07115_1100LMJ01_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 736
+     }
+    ],
+    "hirise_id": "ESP_042315_1985",
+    "hirise_title": "Candidate Landing Site (western delta)",
+    "hirise_url": "https://www.uahirise.org/ESP_042315_1985",
+    "hirise_km": 0.9
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.383988,
+     18.470212
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Margin carbonates – Bunsen Peak",
+    "why": "Carbonate rocks along the inner crater rim, mapped from orbit by MRO CRISM as the 'marginal carbonates' unit. Carbonates can form in water and can trap signs of life (sample Comet Geyser, silica-cemented carbonate).",
+    "mission": "MRO CRISM + Mars 2020",
+    "source": "Horgan et al. 2020, Icarus, doi:10.1016/j.icarus.2019.113526; https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+    "position": "Perseverance's position on sol 1084 (Mars 2020 waypoint feed)",
+    "elev_m": -2383,
+    "sol": 1084,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01084/ids/edr/browse/ncam/NLR_1084_0763175813_737ECM_N0510000NCAM00502_01_1I6J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01084/ids/edr/browse/ncam/NLR_1084_0763175813_737ECM_N0510000NCAM00502_01_1I6J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 1084
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01084/ids/edr/browse/ncam/NLR_1084_0763175813_737ECM_N0510000NCAM00502_02_1I6J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01084/ids/edr/browse/ncam/NLR_1084_0763175813_737ECM_N0510000NCAM00502_02_1I6J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 1084
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01084/ids/edr/browse/zcam/ZL0_1084_0763171370_614EBY_N0501618ZCAM09102_1100LMJ02_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01084/ids/edr/browse/zcam/ZL0_1084_0763171370_614EBY_N0501618ZCAM09102_1100LMJ02_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 1084
+     }
+    ],
+    "hirise_id": "ESP_037119_1985",
+    "hirise_title": "Head of Jezero Crater Fan",
+    "hirise_url": "https://www.uahirise.org/ESP_037119_1985",
+    "hirise_km": 2.8
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.327203,
+     18.491833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Cheyava Falls – Neretva Vallis",
+    "why": "Rock with 'leopard spot' textures in the river channel that once fed the lake. One of the most-studied astrobiology targets of the mission (sample Sapphire Canyon).",
+    "mission": "Mars 2020",
+    "source": "https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+    "position": "Perseverance's position on sol 1210 (Mars 2020 waypoint feed)",
+    "elev_m": -2354,
+    "sol": 1210,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01210/ids/edr/browse/ncam/NLG_1210_0774362980_699ECM_N0560000SCAM03210_00_1LLJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01210/ids/edr/browse/ncam/NLG_1210_0774362980_699ECM_N0560000SCAM03210_00_1LLJ01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 1210
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01210/ids/edr/browse/ncam/NLF_1210_0774362503_941ECM_N0560000NCAM02210_04_195J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01210/ids/edr/browse/ncam/NLF_1210_0774362503_941ECM_N0560000NCAM02210_04_195J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 1210
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01210/ids/edr/browse/zcam/ZL7_1210_0774362805_456EBY_N0560000ZCAM01002_1100LMJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01210/ids/edr/browse/zcam/ZL7_1210_0774362805_456EBY_N0560000ZCAM01002_1100LMJ01_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 1210
+     }
+    ],
+    "hirise_id": "ESP_037119_1985",
+    "hirise_title": "Head of Jezero Crater Fan",
+    "hirise_url": "https://www.uahirise.org/ESP_037119_1985",
+    "hirise_km": 1.5
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.305191,
+     18.497484
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Crater rim – Witch Hazel Hill",
+    "why": "Ancient rocks from deep in the crust, pushed up by the impact that made Jezero, including serpentinite (sample Green Gardens) – a rock that forms when water reacts with olivine.",
+    "mission": "Mars 2020",
+    "source": "https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+    "position": "Perseverance's position on sol 1431 (Mars 2020 waypoint feed)",
+    "elev_m": -1907,
+    "sol": 1431,
+    "pov_images": [
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01431/ids/edr/browse/ncam/NLF_1431_0793982838_020ECM_N0692000NCAM00501_01_295J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01431/ids/edr/browse/ncam/NLF_1431_0793982838_020ECM_N0692000NCAM00501_01_295J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 1431
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01431/ids/edr/browse/ncam/NLG_1431_0793983081_904ECM_N0692000NCAM00500_00_2I4J01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01431/ids/edr/browse/ncam/NLG_1431_0793983081_904ECM_N0692000NCAM00500_00_2I4J01_1200.jpg",
+      "camera": "NAVCAM_LEFT",
+      "sol": 1431
+     },
+     {
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01431/ids/edr/browse/zcam/ZL0_1431_0793987674_909EBY_N0692000ZCAM07125_1100LMJ01_320.jpg",
+      "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/01431/ids/edr/browse/zcam/ZL0_1431_0793987674_909EBY_N0692000ZCAM07125_1100LMJ01_1200.jpg",
+      "camera": "MCZ_LEFT",
+      "sol": 1431
+     }
+    ],
+    "hirise_id": "ESP_037119_1985",
+    "hirise_title": "Head of Jezero Crater Fan",
+    "hirise_url": "https://www.uahirise.org/ESP_037119_1985",
+    "hirise_km": 3.1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.2592,
+     18.461407
+    ]
+   }
+  }
+ ]
+}

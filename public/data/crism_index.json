@@ -1,0 +1,391 @@
+{
+ "generated_by": "Created by scripts/make_crism_layers.py from the NASA sources listed in it; script written with AI assistance (Claude Code, Anthropic) and reviewed by the team.",
+ "source": "NASA PDS Geosciences Node \u2013 MRO CRISM MTRDR browse products (via ODE REST API)",
+ "reference": "Viviano-Beck et al. 2014, JGR Planets, doi:10.1002/2014JE004627",
+ "images": [
+  {
+   "obs": "HRL000040FF",
+   "product": "PHY",
+   "file": "crism/hrl000040ff_phy.png",
+   "bounds": [
+    [
+     18.276436,
+     77.275245
+    ],
+    [
+     18.732731,
+     77.561448
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_029/hrl000040ff/hrl000040ff_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "HRL000040FF",
+   "product": "CAR",
+   "file": "crism/hrl000040ff_car.png",
+   "bounds": [
+    [
+     18.276436,
+     77.275245
+    ],
+    [
+     18.732731,
+     77.561448
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_029/hrl000040ff/hrl000040ff_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "HRL000040FF",
+   "product": "MAF",
+   "file": "crism/hrl000040ff_maf.png",
+   "bounds": [
+    [
+     18.276436,
+     77.275245
+    ],
+    [
+     18.732731,
+     77.561448
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_029/hrl000040ff/hrl000040ff_07_brmafj_mtr3.png"
+  },
+  {
+   "obs": "FRT000047A3",
+   "product": "PHY",
+   "file": "crism/frt000047a3_phy.png",
+   "bounds": [
+    [
+     18.442662,
+     77.375794
+    ],
+    [
+     18.688126,
+     77.642182
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_057/frt000047a3/frt000047a3_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "FRT000047A3",
+   "product": "CAR",
+   "file": "crism/frt000047a3_car.png",
+   "bounds": [
+    [
+     18.442662,
+     77.375794
+    ],
+    [
+     18.688126,
+     77.642182
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_057/frt000047a3/frt000047a3_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "FRT000047A3",
+   "product": "MAF",
+   "file": "crism/frt000047a3_maf.png",
+   "bounds": [
+    [
+     18.442662,
+     77.375794
+    ],
+    [
+     18.688126,
+     77.642182
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_057/frt000047a3/frt000047a3_07_brmafj_mtr3.png"
+  },
+  {
+   "obs": "FRT00005850",
+   "product": "PHY",
+   "file": "crism/frt00005850_phy.png",
+   "bounds": [
+    [
+     18.112243,
+     77.192344
+    ],
+    [
+     18.429098,
+     77.503708
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_111/frt00005850/frt00005850_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "FRT00005850",
+   "product": "CAR",
+   "file": "crism/frt00005850_car.png",
+   "bounds": [
+    [
+     18.112243,
+     77.192344
+    ],
+    [
+     18.429098,
+     77.503708
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_111/frt00005850/frt00005850_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "FRT00005850",
+   "product": "MAF",
+   "file": "crism/frt00005850_maf.png",
+   "bounds": [
+    [
+     18.112243,
+     77.192344
+    ],
+    [
+     18.429098,
+     77.503708
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_111/frt00005850/frt00005850_07_brmafj_mtr3.png"
+  },
+  {
+   "obs": "FRT00005C5E",
+   "product": "PHY",
+   "file": "crism/frt00005c5e_phy.png",
+   "bounds": [
+    [
+     18.36452,
+     77.279037
+    ],
+    [
+     18.635198,
+     77.558949
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_139/frt00005c5e/frt00005c5e_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "FRT00005C5E",
+   "product": "CAR",
+   "file": "crism/frt00005c5e_car.png",
+   "bounds": [
+    [
+     18.36452,
+     77.279037
+    ],
+    [
+     18.635198,
+     77.558949
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_139/frt00005c5e/frt00005c5e_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "FRT00005C5E",
+   "product": "MAF",
+   "file": "crism/frt00005c5e_maf.png",
+   "bounds": [
+    [
+     18.36452,
+     77.279037
+    ],
+    [
+     18.635198,
+     77.558949
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_139/frt00005c5e/frt00005c5e_07_brmafj_mtr3.png"
+  },
+  {
+   "obs": "FRT000066A4",
+   "product": "PHY",
+   "file": "crism/frt000066a4_phy.png",
+   "bounds": [
+    [
+     18.342166,
+     77.469047
+    ],
+    [
+     18.587326,
+     77.732291
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_178/frt000066a4/frt000066a4_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "FRT000066A4",
+   "product": "CAR",
+   "file": "crism/frt000066a4_car.png",
+   "bounds": [
+    [
+     18.342166,
+     77.469047
+    ],
+    [
+     18.587326,
+     77.732291
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_178/frt000066a4/frt000066a4_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "FRT000066A4",
+   "product": "MAF",
+   "file": "crism/frt000066a4_maf.png",
+   "bounds": [
+    [
+     18.342166,
+     77.469047
+    ],
+    [
+     18.587326,
+     77.732291
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2007/2007_178/frt000066a4/frt000066a4_07_brmafj_mtr3.png"
+  },
+  {
+   "obs": "FRT0001ECBA",
+   "product": "PHY",
+   "file": "crism/frt0001ecba_phy.png",
+   "bounds": [
+    [
+     18.272775,
+     77.610513
+    ],
+    [
+     18.50791,
+     77.866523
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_182/frt0001ecba/frt0001ecba_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "FRT0001ECBA",
+   "product": "CAR",
+   "file": "crism/frt0001ecba_car.png",
+   "bounds": [
+    [
+     18.272775,
+     77.610513
+    ],
+    [
+     18.50791,
+     77.866523
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_182/frt0001ecba/frt0001ecba_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "FRT0001ECBA",
+   "product": "MAF",
+   "file": "crism/frt0001ecba_maf.png",
+   "bounds": [
+    [
+     18.272775,
+     77.610513
+    ],
+    [
+     18.50791,
+     77.866523
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_182/frt0001ecba/frt0001ecba_07_brmafj_mtr3.png"
+  },
+  {
+   "obs": "FRT0001FB74",
+   "product": "PHY",
+   "file": "crism/frt0001fb74_phy.png",
+   "bounds": [
+    [
+     18.269561,
+     77.398361
+    ],
+    [
+     18.511987,
+     77.66129
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_226/frt0001fb74/frt0001fb74_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "FRT0001FB74",
+   "product": "CAR",
+   "file": "crism/frt0001fb74_car.png",
+   "bounds": [
+    [
+     18.269561,
+     77.398361
+    ],
+    [
+     18.511987,
+     77.66129
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_226/frt0001fb74/frt0001fb74_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "FRT0001FB74",
+   "product": "MAF",
+   "file": "crism/frt0001fb74_maf.png",
+   "bounds": [
+    [
+     18.269561,
+     77.398361
+    ],
+    [
+     18.511987,
+     77.66129
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_226/frt0001fb74/frt0001fb74_07_brmafj_mtr3.png"
+  },
+  {
+   "obs": "FRT00021DA6",
+   "product": "PHY",
+   "file": "crism/frt00021da6_phy.png",
+   "bounds": [
+    [
+     18.268172,
+     77.501176
+    ],
+    [
+     18.499358,
+     77.754984
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_348/frt00021da6/frt00021da6_07_brphyj_mtr3.png"
+  },
+  {
+   "obs": "FRT00021DA6",
+   "product": "CAR",
+   "file": "crism/frt00021da6_car.png",
+   "bounds": [
+    [
+     18.268172,
+     77.501176
+    ],
+    [
+     18.499358,
+     77.754984
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_348/frt00021da6/frt00021da6_07_brcarj_mtr3.png"
+  },
+  {
+   "obs": "FRT00021DA6",
+   "product": "MAF",
+   "file": "crism/frt00021da6_maf.png",
+   "bounds": [
+    [
+     18.268172,
+     77.501176
+    ],
+    [
+     18.499358,
+     77.754984
+    ]
+   ],
+   "source": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/browse/2011/2011_348/frt00021da6/frt00021da6_07_brmafj_mtr3.png"
+  }
+ ]
+}
